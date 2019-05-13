@@ -2,7 +2,6 @@
     padding:30px 50px;
     margin:40px 60px;
     cursor:pointer;
-    display:inline-block;
     color:#FFF;
     font-size:2em;
     border-radius:4px;
@@ -16,6 +15,31 @@
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.green{
+    grid-column: 1/-1;
+
+}
+.red{
+    grid-column: 1/-1;
+}
+    
+
+    
+
+
+ 
+
+
+
+
+    
 
 /***********************************************************************
  *  Green Background
